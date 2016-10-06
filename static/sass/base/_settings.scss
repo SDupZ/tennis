@@ -1,0 +1,105 @@
+
+// /*------------------------------------*\
+//     $ COLORS
+// \*------------------------------------*/
+
+$white: #fff;
+$black: #000;
+
+// base colors
+$grey--suva-grey: #898989;
+$grey--charcoal: #4c4c4c;
+$grey--iron: #c3c4c4;
+$red--light-pink: #ffbdc3;
+$red--salmoan: #fd7987;
+$orange--fair-pink: #f9efed;
+
+//social icons
+$facebook: #3b5998;
+
+// Others
+$blue-columbia: #b3d4fc;
+
+//colors with opacity
+$white-80: #ffffffcc;
+$white-50: #ffffff80;
+///sass wont let me transform this to hexcode, throws error :/
+$black-70: rgba(0, 0, 0, .7);
+
+
+
+// /*------------------------------------*\
+//     $ TEMPLATE COLORS
+// \*------------------------------------*/
+// generals
+$primary-color: $black;
+$selection-color: $blue-columbia;
+
+// Backgrounds
+$bg-color: $white;
+
+// fonts
+$font-primary-color: $primary-color;
+
+
+// /*------------------------------------*\
+//     $ LINKS
+// \*------------------------------------*/
+$link-primary-color: $black;
+$link-primary-decoration: underline;
+$link-primary-color--hover: $red--salmoan;
+$link-primary-decoration--hover: underline;
+
+$link-secondary-color: $black;
+$link-secondary-decoration: underline;
+$link-secondary-color--hover: $red--salmoan;
+$link-secondary-decoration--hover: underline;
+
+// /*------------------------------------*\
+//     $ TEMPLATE SETTINGS
+// \*------------------------------------*/
+// $sidebar-width: 350px;
+// $sidebar-width: 372px;
+// $image-ratio: 136%;
+$top-header-size-small: 60px;
+$top-header-size-big: 100px;
+$row-width: 1140px;
+
+
+// /*------------------------------------*\
+//     $ FONTS
+// \*------------------------------------*/
+$base-font-size: 16px;
+$base-line-height: 1.7;
+
+
+
+// /*------------------------------------*\
+//     $ CSS WIZARDY-GRIDS
+// \*------------------------------------*/
+$gutter: 26px;
+
+$breakpoints: (
+    'less-mobile': '(max-width: 479px)',
+    'mobile': '(min-width: 480px)',
+    'less-tablet': '(max-width: 767px)',
+    'tablet': '(min-width: 768px)',
+    'less-desktop': '(max-width: 1023px)',
+    'desktop': '(min-width: 1024px)',
+    'less-wide': '(max-width: 1149px)',
+    'wide': '(min-width: 1150px)',
+    'less-full': '(max-width: 1599px)',
+    'full': '(min-width: 1600px)',
+
+    // custom breakpoints
+    'wide-menu': '(min-width: 1670px)'
+);
+
+// Make Breakpoints available in the grid system. Is used also for hiding
+$push: true;
+$pull: false;
+$breakpoint-has-widths: ('less-mobile', 'mobile', 'less-tablet', 'tablet', 'less-desktop', 'desktop', 'less-wide', 'wide', 'less-full', 'full');
+$breakpoint-has-push:   ('tablet', 'desktop', 'wide');
+$breakpoint-has-pull:   ();
+$print: true;
+$hide: true;
