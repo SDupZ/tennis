@@ -1829,7 +1829,8 @@ body {
   background-color: #F5F5F5;
   color: #000;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  flex-wrap: wrap; }
   .nav p {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
