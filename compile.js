@@ -9,7 +9,12 @@ sass.render({
       fs.writeFile('static/css/main.css', result.css, function(err){
         if(!err){
           //file written on disk
+          console.log("Done");
+        } else {
+          console.log(err);
         }
       });
-    }
+  } else {
+      console.log(error);
+  }
   });

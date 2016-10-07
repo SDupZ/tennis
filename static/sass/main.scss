@@ -1,68 +1,21 @@
 // Settings
 @import 'base/settings';
 
-
 // Vendors
-@import 'vendors/fontello';
 @import 'vendors/flexy-grid';
-@import 'vendors/slick';
-@import 'vendors/normalize';
-@import 'vendors/magnific-popup';
 
 // Helpers
-@import 'helpers/mixins';
-@import 'helpers/animations';
-@import 'helpers/functions';
-@import 'helpers/placeholders';
-
 
 // Base
-@import 'base/fonts';
-@import 'base/helpers';
 @import 'base/core';
-@import 'base/layout';
-@import 'base/no-js';
-@import 'base/touch';
-
 
 // Components
 @import 'components/header';
-@import 'components/menu-icon';
-@import 'components/forms';
-@import 'components/validation';
-@import 'components/search-box';
-@import 'components/social';
-@import 'components/sliders';
-@import 'components/modals';
-@import 'components/headings';
-@import 'components/button';
-@import 'components/ad';
-@import 'components/article-tile';
 @import 'components/footer';
-@import 'components/hero-image';
-@import 'components/stay-in-know-block';
-@import 'components/subscribe';
-@import 'components/from-cms';
-@import 'components/respimage';
-@import 'components/loadmore';
-@import 'components/videos';
-@import 'components/newsletter';
-@import 'components/article';
-@import 'components/gallery';
-@import 'components/mediablock';
-
+@import 'components/sections';
 
 // Pages
-@import 'pages/404';
 @import 'pages/homepage';
-@import 'pages/about';
-@import 'pages/contact';
-@import 'pages/category';
-@import 'pages/article';
-@import 'pages/bloggers';
-@import 'pages/newsletter';
-@import 'pages/search-results';
-
 
 // It's a shame to put code here !
 @import 'shame';
