@@ -4,7 +4,8 @@
 
 `docker run -it -v c:/Users/Simon/development/tennis:/srv/www/tennis/tennis -p 8000 --name tennis simondupreez/tennis`
 `docker run -it -v ~/development/tennis:/srv/www/tennis/tennis -p 8000 --name tennis simondupreez/tennis`
-
+`docker run -it -v ~/development/sdup/tennis:/srv/www/tennis/tennis -p 8000-8050:80 -e VIRTUAL_HOST=tennis.dev --name tennis sdupz/tennis`
+>>>>>>> 51bf9c97b4c9bad5977a73a91341a778110c9fed
 
 ### Sass Compiler
 

@@ -1,4 +1,9 @@
+.grid {
+}
 
+.grid__item {
+    // padding-right: $gutter;
+}
 
 html {
     color: $black;
@@ -7,120 +12,6 @@ html {
     overflow-y: scroll;
 }
 
-
-// For flex header, body, footer layout to work both body and html need 100% height
-body,
-html {
-    height: 100%;
-}
-
-// Remove scroll when mobile menu is open open, only on =< Tablet
-html {
-    &.has-no-scroll, &.has-no-scroll body {
-        @include respond-to(less-tablet) {
-            overflow: hidden;
-            height: 100%;
-        }
-    }
-}
-
-
-::selection,
-::-moz-selection {
-    background: $selection-color;
-    text-shadow: none;
-}
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
-}
-
-img {
-    max-width: 100%;
-}
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-textarea {
-    resize: vertical;
-}
-
-blockquote {
-    border-left: 3px solid $black;
-    padding-left: 10px;
-}
-
 body {
-    @extend %font-primary--book;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    color: $font-primary-color;
     margin: 0;
-    max-width: none;
-    padding: 0;
-}
-
-
-
-// Headings are always ‘just a bit bigger’ than body copy.
-// Need to be styled with a class
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-size: 1.25rem;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-}
-
-figcaption {
-    // @include font-size(14px, 1.4);
-}
-
-// nav ul,
-// nav ol {
-//     list-style: none;
-//     margin: 0;
-//     padding: 0;
-// }
-
-b,
-strong {
-  // font-weight: 500;
-}
-
-// scss-lint:disable QualifyingElement
-input,
-input[type="search"] {
-    -webkit-appearance: none;
-    outline: none;
-}
-
-input,
-textarea,
-select,
-a {
-    outline: none;
-}
-
-label {
-    cursor: pointer;
 }
