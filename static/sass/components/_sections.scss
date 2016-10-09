@@ -1,16 +1,29 @@
 .section {
-    padding: 20px;
-
     &__thin {
       text-align: justify;
       max-width: 1140px;
       margin: 0 auto;
+
+      padding-left: $gutter;
+      padding-right: $gutter;
     }
+
+    padding-top:20px;
+    padding-bottom:20px;
 }
 
-.section_1 {
-    background-color: $bgBlue;
+
+.recent-news {
+    background-image:url('/static/img/temporary/bg_home_1.jpg');
+    background-size: cover;
+    background-position: center center;
+
+    h1 {
+      text-align: center;
+    }
+    color: $white;
 }
+
 
 .section_2 {
     background-color: $bgGreen;

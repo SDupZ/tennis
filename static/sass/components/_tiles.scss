@@ -1,0 +1,26 @@
+
+.news-card {
+    margin: 40px;
+    background-color: $white;
+    color: $black;
+    text-align: center;
+
+    @include respond-to(less-tablet) {
+        margin: 10px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    h5 {
+        margin: 0;
+        color: $orange;
+    }
+
+    .news-text{
+        padding: 20px;
+    }
+
+}
