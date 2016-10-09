@@ -1,6 +1,11 @@
-.container {
+.section {
     padding: 20px;
-    text-align: justify;
+
+    &__thin {
+      text-align: justify;
+      max-width: 1140px;
+      margin: 0 auto;
+    }
 }
 
 .section_1 {

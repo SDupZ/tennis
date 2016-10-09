@@ -1,0 +1,68 @@
+// ***
+// Slider on homepage
+// ***
+.hero-slider {
+    $offest-content: -100px;
+    position: relative;
+}
+
+
+// ***
+// Default style for slick slider
+// ***
+.slick-slider {
+
+    button {
+        &.slick-prev,
+        &.slick-next {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            font-size: 0;
+            line-height: 0;
+            z-index: 1;
+            background-color: transparent;
+            color: transparent;
+            border: 0;
+            padding: 0;
+            margin: 0;
+            outline: 0;
+            cursor: pointer;
+
+            &:before {
+                @extend %font-fontello;
+                color: $white;
+                font-size: 24px;
+                text-shadow: 0 0 3px $grey--charcoal;
+
+                @include respond-to(less-mobile) {
+                    font-size: 36px;
+                    opacity: .5;
+                }
+            }
+        }
+
+        &.slick-prev {
+            left: $gutter;
+
+            // scss-lint:disable PlaceholderInExtend
+            &:before {
+                @extend .icon-left-open:before;
+            }
+
+        }
+
+        &.slick-next {
+            right: $gutter;
+
+            // scss-lint:disable PlaceholderInExtend
+            &:before {
+                @extend .icon-right-open:before;
+            }
+        }
+
+    }
+
+}

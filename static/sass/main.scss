@@ -1,22 +1,27 @@
 // Settings
 @import 'base/settings';
 
+
 // Vendors
 @import 'vendors/flexy-grid';
-
-// Helpers
+@import 'vendors/slick';
+@import 'vendors/fontello';
 
 // Base
 @import 'base/core';
+@import 'base/fonts';
+
 
 // Components
 @import 'components/nav';
-@import 'components/jumbotron';
 @import 'components/footer';
 @import 'components/sections';
+@import 'components/sliders';
+
 
 // Pages
 @import 'pages/homepage';
+
 
 // It's a shame to put code here !
 @import 'shame';
