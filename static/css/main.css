@@ -2070,9 +2070,12 @@ body {
   .news-card img {
     width: 100%;
     height: auto; }
-  .news-card h5 {
+  .news-card a {
     margin: 0;
-    color: #FF9800; }
+    color: #FF9800;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.83em; }
   .news-card .news-text {
     padding: 20px; }
 
