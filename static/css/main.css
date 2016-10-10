@@ -2078,6 +2078,10 @@ body {
     font-size: 0.83em; }
   .news-card .news-text {
     padding: 20px; }
+  .news-card .news-img {
+    height: 250px;
+    background-size: cover;
+    background-position: 50% 50%; }
 
 .hero {
   padding: 54px 0;

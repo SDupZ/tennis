@@ -22,8 +22,14 @@
         font-size: 0.83em;
     }
 
-    .news-text{
+    .news-text {
         padding: 20px;
+    }
+
+    .news-img {
+        height: 250px;
+        background-size:cover;
+        background-position:50% 50%;
     }
 
 }
