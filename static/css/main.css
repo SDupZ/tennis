@@ -1992,11 +1992,20 @@ body {
 .footer {
   padding: 54px 0;
   text-align: center;
-  background-color: #424242;
+  background-color: #071B47;
   color: #fff; }
+  .footer img {
+    padding: 40px; }
+  .footer h2 {
+    font-size: 1.2em;
+    padding: 20px; }
   .footer p {
-    font-size: 1.333em;
+    font-size: 1.0em;
     margin: 0; }
+  .footer .align-left {
+    text-align: left; }
+  .footer .align-right {
+    text-align: right; }
 
 .section {
   padding-top: 20px;
