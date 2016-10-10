@@ -19,12 +19,16 @@
         margin: 0;
     }
 
-    .align-left {
-        text-align: left;
+    .contact-left {
+        @include respond-to(tablet) {
+            text-align: left;
+        }
     }
 
-    .align-right {
-        text-align: right;
+    .contact-right {
+        @include respond-to(tablet) {
+            text-align: right;
+        }
     }
 
     .blurb {

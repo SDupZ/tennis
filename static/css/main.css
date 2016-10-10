@@ -2002,10 +2002,12 @@ body {
   .footer p {
     font-size: 1.0em;
     margin: 0; }
-  .footer .align-left {
-    text-align: left; }
-  .footer .align-right {
-    text-align: right; }
+  @media only screen and (min-width: 768px) {
+    .footer .contact-left {
+      text-align: left; } }
+  @media only screen and (min-width: 768px) {
+    .footer .contact-right {
+      text-align: right; } }
   .footer .blurb {
     max-width: 50%;
     margin: 0 auto;
@@ -2031,15 +2033,6 @@ body {
 
 .sponsors {
   text-align: center; }
-
-.section_2 {
-  background-color: #fff; }
-
-.section_3 {
-  background-color: #D1C4E9; }
-
-.section_4 {
-  background-color: #FFF9C4; }
 
 .hero-slider {
   position: relative; }
