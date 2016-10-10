@@ -4,7 +4,7 @@
     color: $black;
     text-align: center;
 
-    @include respond-to(less-tablet) {
+    @include respond-to(less-desktop) {
         margin: 10px;
     }
 
