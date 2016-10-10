@@ -1,5 +1,5 @@
 .section {
-    &__thin {
+    &__inner {
       text-align: justify;
       max-width: 1140px;
       margin: 0 auto;
@@ -8,8 +8,18 @@
       padding-right: $gutter;
     }
 
-    padding-top:20px;
+    h2 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+
+    padding-top: 20px;
     padding-bottom:20px;
+
+    @include respond-to(tablet) {
+        padding: 48px 0;
+    }
 }
 
 
@@ -18,12 +28,25 @@
     background-size: cover;
     background-position: center center;
 
-    h1 {
-      text-align: center;
-    }
     color: $white;
 }
 
+
 .sponsors {
     text-align: center;
+
+    .sponsor-tile {
+        max-width: 200px;
+    }
+
+    img {
+        margin: 0 auto;
+        height: auto;
+        display: block;
+    }
+
+    a {
+        padding: 10px;
+        text-decoration: none;
+    }
 }
