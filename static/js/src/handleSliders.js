@@ -14,7 +14,7 @@
             fade: true,
             touchMove: true,
             adaptiveHeight: true,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 5000,
             lazyLoad: 'ondemand',
         });

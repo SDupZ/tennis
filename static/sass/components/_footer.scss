@@ -6,7 +6,7 @@
     color: $white;
 
     img {
-      padding: 40px;
+      padding: 30px;
     }
 
     h2 {
@@ -25,5 +25,11 @@
 
     .align-right {
         text-align: right;
+    }
+
+    .blurb {
+        max-width: 50%;
+        margin: 0 auto;
+        padding: 30px;
     }
 }
