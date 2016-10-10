@@ -28,10 +28,6 @@
     .news-img {
         height: 250px;
 
-        @include respond-to(less-desktop) {
-            height: 140px;
-        }
-        
         background-size:cover;
         background-position:50% 50%;
     }
