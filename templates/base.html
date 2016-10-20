@@ -11,16 +11,24 @@
 
         <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
     </head>
+
     <body>
+        {% include 'includes/_header.html' %}
+
         {% block main-content %}
         {% endblock %}
+
+        {% include 'includes/_footer.html' %}
 
 
         <!-- Javascripts -->
         <script type="text/javascript" src="/static/js/vendors/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="/static/js/vendors/slick.min.js"></script>
 
+        <script type="text/javascript" src="/static/js/src/handleMenu.js"></script>
 
-        <script type="text/javascript" src="/static/js/src/handleSliders.js"></script>
+        {% block scripts %}
+        {% endblock %}
+
     </body>
 </html>

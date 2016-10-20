@@ -1,0 +1,74 @@
+.navbar {
+    height:10vh;
+    background-color: $black;
+    color: $white;
+
+    a {
+        text-decoration: none;
+        padding: 8px;
+        color: $white;
+
+        &:hover {
+            text-decoration: underline;
+
+        }
+    }
+}
+
+.logo {
+    display: flex;
+    height: 100%;
+
+    &__item {
+        align-self: center;
+        padding: 10px;
+
+        img {
+            width: 80%
+        }
+    }
+
+    &__text {
+        display: none;
+
+        @include respond-to(desktop) {
+            display: block;
+        }
+    }
+
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.nav__grid {
+    @include respond-to(less-desktop) {
+        display: none;
+    }
+}
+
+.nav__list {
+    align-self: center;
+
+    .nav__item {
+        display: inline;
+    }
+}
+
+.menu-icon {
+    position: absolute;
+    cursor: pointer;
+    background-color: transparent;
+    color: transparent;
+    z-index: 100;
+    right: ($gutter / 2);
+    top: 30px;
+    color: $white;
+
+    @include respond-to(desktop) {
+        display: none;
+    }
+}

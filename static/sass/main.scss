@@ -6,14 +6,16 @@
 @import 'vendors/flexy-grid';
 @import 'vendors/slick';
 @import 'vendors/fontello';
+@import "vendors/hamburgers/hamburgers";
 
 // Base
 @import 'base/core';
 @import 'base/fonts';
-
+@import 'base/layout';
 
 // Components
-@import 'components/nav';
+@import 'components/header';
+@import 'components/menu';
 @import 'components/footer';
 @import 'components/sections';
 @import 'components/sliders';
