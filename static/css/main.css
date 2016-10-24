@@ -2732,24 +2732,6 @@ body {
     .section {
       padding: 48px 0; } }
 
-.recent-news {
-  background-image: url("/static/img/temporary/hero_4.jpg");
-  background-size: cover;
-  background-position: center center;
-  color: #fff; }
-
-.sponsors {
-  text-align: center; }
-  .sponsors .sponsor-tile {
-    max-width: 200px; }
-  .sponsors img {
-    margin: 0 auto;
-    height: auto;
-    display: block; }
-  .sponsors a {
-    padding: 10px;
-    text-decoration: none; }
-
 .hero-slider {
   position: relative; }
 
@@ -2795,12 +2777,6 @@ body {
   .news-card img {
     width: 100%;
     height: auto; }
-  .news-card a {
-    margin: 0;
-    color: #FF9800;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 0.83em; }
   .news-card .news-text {
     padding: 20px; }
   .news-card .news-img {
@@ -2828,6 +2804,13 @@ body {
     background-size: contain;
     background-position: 50% 50%; }
 
+.button__flat {
+  margin: 0;
+  color: #FF9800;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.83em; }
+
 .hero {
   padding: 54px 0;
   text-align: center;
@@ -2836,3 +2819,34 @@ body {
   .hero p {
     font-size: 1.333em;
     margin: 0; }
+
+.recent-news {
+  background-image: url("/static/img/temporary/hero_4.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #fff; }
+
+.sponsors {
+  text-align: center; }
+  .sponsors .sponsor-tile {
+    max-width: 200px; }
+  .sponsors img {
+    margin: 0 auto;
+    height: auto;
+    display: block; }
+  .sponsors a {
+    padding: 10px;
+    text-decoration: none; }
+
+.membership {
+  background-image: url("/static/img/temporary/parallax_2.png"); }
+  .membership .membership__grid {
+    height: 500px; }
+  .membership .membership__grid__item {
+    display: flex; }
+  .membership .membership__container {
+    align-self: center; }
+    .membership .membership__container h1, .membership .membership__container h2, .membership .membership__container h3, .membership .membership__container h4, .membership .membership__container h5, .membership .membership__container h6 {
+      color: #071B47; }
+    .membership .membership__container a {
+      text-decoration: none; }

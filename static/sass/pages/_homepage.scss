@@ -10,3 +10,58 @@
         margin: 0;
     }
 }
+
+
+
+.recent-news {
+    background-image:url('/static/img/temporary/hero_4.jpg');
+    background-size: cover;
+    background-position: center center;
+
+    color: $white;
+}
+
+
+.sponsors {
+    text-align: center;
+
+    .sponsor-tile {
+        max-width: 200px;
+    }
+
+    img {
+        margin: 0 auto;
+        height: auto;
+        display: block;
+    }
+
+    a {
+        padding: 10px;
+        text-decoration: none;
+    }
+}
+
+.membership {
+    background-image:url('/static/img/temporary/parallax_2.png');
+
+
+    .membership__grid {
+        height: 500px;
+    }
+
+    .membership__grid__item {
+        display: flex;
+    }
+
+    .membership__container {
+        align-self: center;
+
+        h1, h2, h3, h4, h5, h6 {
+            color: $darkBlue;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+}

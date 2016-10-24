@@ -21,32 +21,3 @@
         padding: 48px 0;
     }
 }
-
-
-.recent-news {
-    background-image:url('/static/img/temporary/hero_4.jpg');
-    background-size: cover;
-    background-position: center center;
-
-    color: $white;
-}
-
-
-.sponsors {
-    text-align: center;
-
-    .sponsor-tile {
-        max-width: 200px;
-    }
-
-    img {
-        margin: 0 auto;
-        height: auto;
-        display: block;
-    }
-
-    a {
-        padding: 10px;
-        text-decoration: none;
-    }
-}
