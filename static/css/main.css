@@ -2596,8 +2596,7 @@
 html {
   color: #000;
   font-size: 1em;
-  line-height: 1.4;
-  overflow-y: scroll; }
+  line-height: 1.4; }
 
 body {
   margin: 0;
@@ -2613,8 +2612,12 @@ body {
   padding-left: 26px;
   padding-right: 26px; }
 
+.noscroll {
+  overflow-y: hidden;
+  height: 100%; }
+
 .navbar {
-  height: 10vh;
+  height: 80px;
   background-color: #000;
   color: #fff; }
   .navbar a {
@@ -2659,8 +2662,10 @@ body {
   color: transparent;
   z-index: 100;
   right: 13px;
-  top: 30px;
+  top: 20px;
   color: #fff; }
+  .menu-icon--is-active {
+    position: fixed; }
   @media only screen and (min-width: 1024px) {
     .menu-icon {
       display: none; } }
@@ -2668,17 +2673,18 @@ body {
 .overlay-content {
   position: fixed;
   top: 0;
-  left: 100%;
   height: 100%;
   width: 100%;
   z-index: 10;
-  background: linear-gradient(#006A80, #009AC0);
-  transition: 0.3s; }
+  transition: all 200ms;
+  transition-timing-function: ease-in-out;
+  opacity: 0;
+  background: linear-gradient(#006A80, #009AC0); }
   @media only screen and (min-width: 1024px) {
     .overlay-content {
       display: none; } }
   .overlay-content--is-active {
-    transition: 0.3s;
+    opacity: 1;
     left: 0; }
   .overlay-content .mobile-nav-item {
     text-align: center;

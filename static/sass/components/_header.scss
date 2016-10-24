@@ -1,5 +1,5 @@
 .navbar {
-    height:10vh;
+    height:80px;
     background-color: $black;
     color: $white;
 
@@ -65,8 +65,12 @@
     color: transparent;
     z-index: 100;
     right: ($gutter / 2);
-    top: 30px;
+    top: 20px;
     color: $white;
+
+    &--is-active {
+        position: fixed;
+    }
 
     @include respond-to(desktop) {
         display: none;
